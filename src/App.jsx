@@ -4,6 +4,7 @@ import githublogo from "/src/img/github.svg";
 import instalogo from "/src/img/instagram.svg";
 import figmalogo from "/src/img/figma.svg";
 import location from "/src/img/location.svg";
+import headshot from "/public/img/headshot.png";
 import linkedinlogo from "/src/img/linkedin.svg";
 import Experience from "./components/Experience.jsx";
 import Project from "./components/Project.jsx";
@@ -16,12 +17,9 @@ function App() {
         <div className="h-auto flex flex-row sm:flex-col-reverse space-x-10 sm:space-x-0 ">
           <div className="flex flex-col justify-center space-y-5 text-base">
             {/* TODO 1: Edit the content of these tags!*/}
-            <h1>Hi! I'm ______</h1>
+            <h1>Hi! I'm Victoria.</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum ac ante eget arcu ultrices eleifend. Curabitur
-              tincidunt, quam non consequat cursus, nibh velit ultricies lorem,
-              et accumsan augue justo a diam.
+              I am a junior @ Cornell University studying Information Science with concentrations in Data Science and User Experience.
             </p>
             <div className="flex flex-row items-center space-x-2">
               <img src={location} />
@@ -43,7 +41,7 @@ function App() {
               <a href="">
                 <img src={figmalogo} />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/victoria-varkonyi/">
                 <img src={linkedinlogo} />
               </a>
             </div>
@@ -51,7 +49,7 @@ function App() {
           <div className="flex justify-center ">
             {/* TODO 3: Change this to a custom image! */}
             <img
-              src={wicclogo}
+              src={headshot}
               alt="WICC Logo"
               className="object-contain sm:p-10"
             />

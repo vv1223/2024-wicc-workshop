@@ -10,17 +10,17 @@ const Footer = () => {
       <div>
         <div className="flex flex-row items-center space-x-3">
           <img src={email} />
-          <p>example@gmail.com</p>
+          <p>vv229@cornell.edu</p>
         </div>
 
         <div className="flex flex-row items-center space-x-3">
           <img src={phone} />
-          <p>123-456-7890</p>
+          <p>516-477-6347</p>
         </div>
       </div>
       <div>
         <p className="flex justify-center text-sm">
-          &copy; 2024 WICC Technical Committee Workshop
+          &copy; Victoria Varkonyi
         </p>
       </div>
     </footer>
